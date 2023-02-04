@@ -6,10 +6,21 @@
        <div class="container bg-white pt-5">
            <div class="row px-3 pb-5">
                <div class="col-md-12">
-                   <h2 class="mb-4 font-weight-bold">Article writer with 10 years of experience</h2>
-                   <img class="img-fluid float-left w-50 mr-4 mb-3" src="img/about.jpg" alt="Image">
+                   <h2 class="mb-4 font-weight-bold">Programador con 3 años de experiencia.</h2>
+                   <img class="img-fluid float-left w-50 mr-4 mb-3" src="/img/johandry.png" alt="Image">
                    <p class="m-0">
-                       Takimata lorem et ut et diam amet dolor gubergren, amet dolor eirmod sea sea invidunt, sed no sed diam ipsum ut et. Sit nonumy est ut consetetur sed, labore dolor ipsum sed ea dolor lorem erat et erat, consetetur sed labore duo voluptua rebum sed gubergren. Dolores nonumy sanctus erat clita stet sed, dolore justo diam eos aliquyam diam. Clita nonumy rebum dolor dolor eos takimata labore diam sed, et voluptua et invidunt sanctus, elitr dolor nonumy tempor dolor elitr lorem no dolor ipsum, ut at gubergren dolor est aliquyam stet, et sea takimata rebum labore erat duo invidunt lorem. At takimata stet diam dolore accusam, kasd at diam aliquyam diam sed est dolor takimata. Sadipscing rebum diam ea et tempor, eirmod et et invidunt voluptua et dolor sit. Labore labore clita et amet sea sit et, est ipsum eirmod amet voluptua dolore, diam eirmod kasd lorem gubergren clita at amet, sea accusam vero amet lorem eos sed diam sit amet, nonumy ipsum et tempor magna dolores aliquyam vero eos ipsum. Ipsum ipsum sadipscing diam aliquyam diam et ipsum eos vero, gubergren magna elitr elitr clita dolor. Aliquyam vero sed sanctus sed dolore sanctus elitr no amet, ea magna ipsum.
+                    Acerca de Mi:<strong> hola me llamo Johandry rojas, soy full-start con formación y experiencia en html5 css bootstrap sass JavaScript React Redux , jquery php , codeigniter 3 y control de verciones con git</strong> Me gusta mezclar estos dos perfiles porque puedo entender la idea del negocio tanto en la parte estratégica como en la de desarrollo. Mi camino en el mundo de la programación Web comienza en el año 2018, estudie programación web Digital y desarrollando un Plan de Marketing Digital y un Wordpress para la empresa Mendoza Cercos Eléctricos, luego en el 2020, Henry se cruzó en mi camino y di él Salto definitivo a la programación. Ahora en el 2023 me encuentro Dedicándome full-time a la programación.
+                    Un full-start Develope innovador y de rápido aprendizaje con 3 años de experiencia en la creación y el mantenimiento de sitios web receptivos en la industria de TI. Competente en integración de JavaScript,jquery php laravel 9 , codeigniter 3,bootstrap, sass, Typescript, React y API; además de bibliotecas y marcos modernos. Apasionado por la usabilidad, los componentes reutilizables y posee un conocimiento práctico de las optimizaciones de Adobe XD, Figma y Lighthouse..
+                   
+                    
+                    
+                    
+                    
+                   </p>
+
+                   <p>
+                    <h2>Educacion</h2>
+                    ingeniero informática at Uni ojeda, ciudad ojeda Sep, 2018 - Sep, 2023 Carrera universitaria en curso Ingeniero en informática Uni ojeda, Lagunillas Sep, 2019 - Sep, 2022 Sep, 2021 - Sep,
                    </p>
                </div>
                <div class="col-md-12 pt-4">
@@ -35,10 +46,6 @@
        <!-- Footer End -->
 
 
-
-<!-- JavaScript Libraries -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 
 @endsection
 

@@ -127,11 +127,12 @@
         <!-- Blog List End -->
         
         
-        <!-- Footer Start -->
 
-        
-       
+        <!-- Footer Start -->
+        @include('components.layouts.footer')
         <!-- Footer End -->
+       
+
  
 
 @endsection
