@@ -1,5 +1,5 @@
 @extends('components.layouts.app')
-@section('title' , 'Acerca de')
+@section('title' , 'Acerca-de-mi')
 @section('content')
 
 

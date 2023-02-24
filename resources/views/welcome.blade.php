@@ -24,7 +24,7 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu suscipit orci velit id libero
                     </p>
-                    <a class="btn btn-link p-0" href="">Read More <i class="fa fa-angle-right"></i></a>
+                    <a class="btn btn-link p-0" href="{{URL::asset('img/blog-2.jpg')}}">Read More <i class="fa fa-angle-right"></i></a>
                 </div>
             </div>
             <div class="row blog-item px-3 pb-5">
@@ -91,7 +91,7 @@
             </div>
             <div class="row blog-item px-3 pb-5">
                 <div class="col-md-5">
-                    <img class="img-fluid mb-4 mb-md-0" src="img/blog-5.jpg" alt="Image">
+                    <img class="img-fluid mb-4 mb-md-0" src="{{URL::asset('img/blog-2.jpg')}}" alt="Image">
                 </div>
                 <div class="col-md-7">
                    
@@ -108,7 +108,7 @@
             </div>
             <div class="row blog-item px-3 pb-5">
                 <div class="col-md-5">
-                    <img class="img-fluid mb-4 mb-md-0" src="img/blog-6.jpg" alt="Image">
+                    <img class="img-fluid mb-4 mb-md-0" src="{{URL::asset('img/blog-2.jpg')}}" alt="Image">
                 </div>
                 <div class="col-md-7">
                    
