@@ -6,9 +6,13 @@
             @include('components.Carousel_Start')
         <!-- Carousel End -->
         
-        
+        @if (!empty($descricion['usuario']))
+        <h3  class=" text-center animate__animated animate__bounceInRight"> Bienvenido {{$descricion['usuario']->name}}</h3>
+        @endif
         <!-- Inicio de la lista de blogs -->
         <div class="container bg-white pt-5">
+          
+            
             <div class="row blog-item px-3 pb-5">
                 <div class="col-md-5">
                     <img class="img-fluid mb-4 mb-md-0" src="/img/blog-1.jpg" alt="Image">

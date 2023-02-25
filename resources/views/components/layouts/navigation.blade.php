@@ -10,8 +10,12 @@
                 <a href="{{route('inicio')}}" class="nav-item nav-link active">Inicio</a>
                 <a href="{{route('about')}}" class="nav-item nav-link">Acerca de</a>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
-
-                <a href="{{route('signout')}}" class="nav-item nav-link">Cerrar secion</a>
+                @if (!$usuario)
+                <a href="{{route('signout')}}" class="nav-item nav-link">Inicion seccio</a>
+                    @else
+                    <a href="{{route('signout')}}" class="nav-item nav-link">Cerrar secion</a>
+                @endif
+               
             </div>
         </div>
     </nav>

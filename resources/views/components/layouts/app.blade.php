@@ -4,10 +4,14 @@
         <meta charset="utf-8">
         <title>@yield('title')</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
+        <meta name="description" content="Explora mi portafolio para ver mis habilidades, experiencia y logros. Incluyo trabajos y proyectos relacionados con diseño web, desarrollo de aplicaciones, programación.">
+
         <!-- Favicon -->
-        <link href="/img/favicon.ico" rel="icon">
+        <link href="{{URL::asset('img/favicon.png')}}" rel="icon">
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&amp;display=swap" rel="stylesheet">

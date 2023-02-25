@@ -6,12 +6,29 @@ use Hash;
 use Session;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
+use App\Models\Sidebar_edit;
 
 class CustomAuthController extends Controller
 {
     public function index()
     {
-        return view('auth.login');
+
+        $date = Sidebar_edit::all();
+        foreach( $date as $descricion){
+            $date=[
+            "id" => 8,
+            "imagen" => $descricion->imagen,
+            "edit_nombre" => $descricion->edit_nombre,
+            "edit_decricion" => $descricion->edit_decricion,
+            "facebook" => $descricion->facebook,
+            "github" => $descricion->github,
+            "LinkedIn" => $descricion->LinkedIn,
+            "created_at" => $descricion->created_at,
+            "updated_at" => $descricion->iupdated_at,
+                
+            ];
+        }
+        return view('auth.login', ['descricion' => $date], ['usuario' => Auth::check()]);
     }  
       
     public function customLogin(Request $request)
@@ -33,13 +50,30 @@ class CustomAuthController extends Controller
 
     public function registration()
     {
-        return view('auth.registration');
+        $date = Sidebar_edit::all();
+        foreach( $date as $descricion){
+            $date=[
+            "id" => 8,
+            "imagen" => $descricion->imagen,
+            "edit_nombre" => $descricion->edit_nombre,
+            "edit_decricion" => $descricion->edit_decricion,
+            "facebook" => $descricion->facebook,
+            "github" => $descricion->github,
+            "LinkedIn" => $descricion->LinkedIn,
+            "created_at" => $descricion->created_at,
+            "updated_at" => $descricion->iupdated_at,
+                
+            ];redirect("welcome")->withSuccess('You have signed-in');
+        }
+
+        return view('auth.registration' , ['descricion' => $date] , ['usuario' => Auth::check()]);
     }
       
     public function customRegistration(Request $request)
     {  
         $request->validate([
             'name' => 'required',
+            'apellido' => 'required',
             'email' => 'required|email|unique:users',
             'password' => 'required|min:6',
         ]);
@@ -47,13 +81,14 @@ class CustomAuthController extends Controller
         $data = $request->all();
         $check = $this->create($data);
          
-        return redirect("welcome")->withSuccess('You have signed-in');
+        return redirect("login")->withSuccess('You have signed-in');
     }
 
     public function create(array $data)
     {
       return User::create([
         'name' => $data['name'],
+        'apellido' => $data['apellido'],
         'email' => $data['email'],
         'password' => Hash::make($data['password'])
       ]);
